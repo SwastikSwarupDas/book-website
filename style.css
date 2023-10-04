@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-SemiBold';
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    box-shadow: 0 2px 15px rgba(130,130,130,0.2);
+}
+
+.nav-part2{
+    display: flex;
+    gap: 4vw;
+}
+
+
+.nav h2{
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.nav h4{
+    font-size: 1vw;
+}
+
+.nav i{
+    font-size: 2vw;
+}
+
+@media (max-width:600px){
+    .nav{
+        padding: 0 5vw
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+
+    .nav h4{
+        font-size: 3vw;
+    }
+}
